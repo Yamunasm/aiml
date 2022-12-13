@@ -1,0 +1,7 @@
+import pandas as pd
+import datetime as dt
+df=pd.read_excel("C:/Users/admin/Desktop/pp/pivot.xlsx")
+print(df)
+
+df1=df.pivot(index="ggt",columns="Course",values="Marks")
+print(df1)
